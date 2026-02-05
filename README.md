@@ -1,25 +1,30 @@
 # Lab Journal
-A lab journal template for students following courses using RStudio and Git (https://robfranken.github.io/LabJournal/). To use this, follow the steps below.
+A lab journal template for students following courses using RStudio and Git. Adapted from the original project by [Rob Franken](https://robfranken.github.io/LabJournal/). To use this, follow the steps below.
 
 
 ## Preparation:
 
 1. Make sure R and R-studio are installed;
 2. Make sure the `rmarkdown`-package is installed in R-studio (with "install dependencies");
-3. Make sure [GitHub Desktop](https://desktop.github.com) is installed and connected to your GitHub account.
+3. Make sure that you have a GitHub account;
+4. Make sure [GitHub Desktop](https://desktop.github.com) is installed and connected to your GitHub account.
+5. In the GitHub Desktop application, make sure your Git identity is set up correctly (File -> Options -> Git) with the same email as your GitHub account.
+
 
 ## Forking the repository:
 
-1. Fork the repository using the fork button in the top right hand corner of Github, to make a personal copy of this lab journal;
-2. Under your repository name, navigate to 'Settings'; click on 'Pages' on the sidebar; select the main-branch as your publishing source, and serve from the 'docs'-folder.
+1. Navigate to https://rensec.github.io/LabJournal/; 
+2. Fork the repository using the fork button in the top right hand corner of Github, to make a personal copy of this lab journal;
+3. Under your repository name, navigate to 'Settings'; click on 'Pages' on the sidebar; select the main-branch as your publishing source, and serve from the 'docs'-folder.
 
-You now have a personal copy of this repository on your account, which serves html files (aka Github pages) as a website.
+You now have a personal copy of this repository on your account, which publishes html files (aka Github pages) as a website.
 
 ## Inviting collaborators:
-Navigate to 'Settings'; click on 'Collaborators', and invite the lectures of your course (e.g. JochemTolsma, bhofstra, robfranken, ammulders). After acceptance, the lecturers have access to you repository and can make contributions.
+Navigate to 'Settings'; click on 'Collaborators', and invite the lectures of your course (e.g. rensec). After acceptance, the lecturers have access to you repository and can make contributions.
+
 
 ## Clone the repository:
-1. Using GitHub desktop, clone the forked lab journal repository to your local path;
+1. In RStudio, go to File -> New Project -> Version Control -> Git;
 2. Specify that you want to use the forked repository for your own purposes. 
 
 The forked repository at your local path contains all of the files you need. All you need for it to work is (the latest version of) R and R-studio installed.
