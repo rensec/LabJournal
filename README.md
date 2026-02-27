@@ -32,7 +32,7 @@ The forked repository at your local path contains all of the files you need. All
 ## Journal your work:
 1. Right-click on the repository name and click 'Open in Rstudio'; alternately, you can navigate to the repository at your local path and open the 'labjournal.Rproj' file. This should automatically open R-studio, and your current working environment will be inside this project.
 2. Inside R-studio you should see a files tab in the bottom right hand corner; 
-3. Customize the 'index.Rmd' as you wish within R-studio, to make it your own;
+3. Customize the 'index.Rmd' from the heading "my lab journal" as you wish within R-studio, to make it your own. This wil lbe the "front page" of jour lab journal;
 4. Make sure to install the `remotes` and `klippy` packages. Commands are included in the index.Rmd.
 5. Journal your work using .Rmd-files.
 
