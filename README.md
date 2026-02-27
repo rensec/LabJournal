@@ -49,15 +49,16 @@ When you have made changes to your .Rmd file that you're happy with, you "commit
 To do this:
 1. Save your file;
 2. Go the Git tab in the top right hand corner of R-studio; your file should appear there. Select your file to "stage" it, and click "commit".
-3. In the commit message, describe what you did (e.g. "added a new .Rmd file with my work on assignment 1"). This is important for you and others to keep track of your changes.
+3. In the commit message, describe what you did (e.g. "added a new .Rmd file with my work on assignment 1"). This is important for you and others to keep track of your changes. 
+A dialog box will pop up describing the result, you can close it, as well as the commit dialog.
 
-
-
-
-## Hosting on Github:
-1. Recompile the lab journal website using the build function in the top right hand corner;
-2. Commit your changes and push them to GitHub using GitHub Desktop.
-3. Your personal lab journal website will be published at: https://{USERNAME}.github.io/LabJournal/
+## Add your new .Rmd to the website
+1. Open _site.yml_ in R-studio; this file contains the structure of your website, and the .Rmd files that are included in it.
+2. To add your new .Rmd file to the website, add a new line under "Menu:". You can copy the example for "Page 1", replacing "lab1.html" with the HTML file that was created when you compiled your .Rmd file, and "Page 1" with the name you want to appear on the website. Save the file.
+3. Recompile the lab journal website using the "build website" button on the "build" tab function in the top right hand corner of R-studio. 
+4. When compilation is complete, go to the Git tab, select all files that appear there (CTRL-A works) and commit them.
+5. Click "Push" in the Git tab to push your changes to GitHub. This will update your website with the new .Rmd file you added. 
+6. Your personal lab journal website will be published at: https://{USERNAME}.github.io/LabJournal/
 
 ## Useful resources: 
 1. Working with [Git](https://happygitwithr.com/index.html) and [GitHub Desktop](https://docs.github.com/en/desktop)
