@@ -29,7 +29,7 @@ Navigate to 'Settings'; click on 'Collaborators', and invite the lectures of you
 
 The forked repository at your local path contains all of the files you need. All you need for it to work is (the latest version of) R and R-studio installed.
 
-## Journal your work:
+## Customize your lab journal:
 1. Right-click on the repository name and click 'Open in Rstudio'; alternately, you can navigate to the repository at your local path and open the 'labjournal.Rproj' file. This should automatically open R-studio, and your current working environment will be inside this project.
 2. Inside R-studio you should see a files tab in the bottom right hand corner; 
 3. Customize the 'index.Rmd' from the heading "my lab journal" as you wish within R-studio, to make it your own. This wil lbe the "front page" of jour lab journal;
@@ -37,6 +37,21 @@ The forked repository at your local path contains all of the files you need. All
 5. Journal your work using .Rmd-files.
 
 To maintain your personal notes and working scripts separately, create a dedicated folder. If you don't want this folder to be accessible to others, remember to add its name to the '.gitignore' file. Additionally, modify your 'site.yml' to ensure that the same content is excluded there as well. Keep in mind that any items within this folder will not be compiled.
+
+## Journal your work
+1. To add files to your lab journal, create .Rmd files in the root directory of your repository. To create an .Rmd file, go to File -> New File -> R Markdown in R-studio. 
+Choose HTML as the output format, and save the file in the root directory of your repository. Most likely, the file will contain some example code; you can delete this and replace it with your own content.
+2. Add your code (this is where you do your actual work).
+3. Use the "knit" button in the top right hand corner of the .Rmd file to compile it. This will create an .html file with the same name as your .Rmd file, which is what will be published on your website.
+
+## Commit your changes
+When you have made changes to your .Rmd file that you're happy with, you "commit" your changes; this is git terminology to save your changes to the repository. A commit creates a point that you can revert to in the future, and also forces you to derscribe what you did.
+To do this:
+1. Save your file;
+2. Go the Git tab in the top right hand corner of R-studio; your file should appear there. Select your file to "stage" it, and click "commit".
+3. In the commit message, describe what you did (e.g. "added a new .Rmd file with my work on assignment 1"). This is important for you and others to keep track of your changes.
+
+
 
 
 ## Hosting on Github:
